@@ -9,3 +9,10 @@
     font-family: 'Outfit', sans-serif;
   }
 }
+
+@layer components {
+  .eyeball {
+    transform: rotateX(90deg);
+  }
+} 
+

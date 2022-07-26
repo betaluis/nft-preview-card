@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="/index.61d3354a.css">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -19,13 +21,49 @@
 
 </style>
 </head>
-<body>
 
-  <footer>
+<body class="bg-dark-blue-100 flex flex-col">
+  <div class="h-screen grid place-items-center px-4">
+    <div class="bg-dark-blue-200 p-6 rounded-lg shadow-xl min-w-[250px] max-w-[350px]">
+      <div class="mb-6 rounded-md overflow-hidden">
+        <a href="#" class="block group relative">
+          <img src="/image-equilibrium.7ad79b6b.jpg" class="transition rounded-m before:bg-secondary before:block" alt="Image">
+          <div class="absolute inset-0">
+              <div class="opacity-0 bg-secondary-transparent h-full w-full flex justify-center items-center group-hover:opacity-100 transition duration-500">
+                <img src="/icon-view.3e6f85db.svg" class="eyeball group-hover:rotate-0 group-hover:delay-0 delay-100 transition-all block reduce-motion:transition-none" alt="View">
+              </div>
+          </div>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="text-white font-bold text-xl hover:text-secondary transition">
+          <h2 class="mb-4">Equilibrium #3429</h2>
+        </a>
+        <p class="text-primary text-base mb-6 font-light">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="flex">
+          <div class="flex mr-auto gap-2 flex-1">
+            <img src="/icon-ethereum.3eed6c6f.svg" alt="Ethereum Icon">
+            <span class="text-secondary font-bold text-sm">0.041 ETH</span>
+          </div>
+          <div class="flex gap-2 self-end items-center">
+            <img src="/icon-clock.37437e08.svg" class="h-4" alt="Ethereum Icon">
+            <span class="text-primary text-sm">3 days left</span>
+          </div>
+        </div>
+        <div class="h-[2px] w-full bg-primary opacity-10 my-6"></div>
+        <div class="flex items-center space-x-3">
+          <img src="/image-avatar.684eeafb.png" class="h-8 border rounded-full" alt="User">
+          <p class="text-primary text-sm">Creation of <a href="#" class="text-white font-bold text-sm hover:text-secondary transition">Jules Wyven</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-white pb-2">
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Luis Betancourt</a>.
     </div>
   </footer>
 <script src="/docs.59712999.js"></script></body>
+
 </html>
